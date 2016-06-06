@@ -1,0 +1,619 @@
+@font-face {
+	font-family: "CarterOne";
+	src: url('../fonts/CarterOne.ttf');
+}
+@font-face {
+	font-family: "Raleway";
+	src: url('../fonts/Raleway-Medium.ttf');
+}
+@font-face {
+	font-family: "RalewayT";
+	src: url('../fonts/Raleway-Light.ttf');
+}
+
+body{
+	top: 0;
+}
+
+.hidden{
+	display: none;
+}
+
+.hiddenbis{
+	visibility: hidden;
+}
+
+#body{
+	background-image: url(../images/fond.jpg); 
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+#logo{
+	width: 400px;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#fb, #twitter{
+	width: 62px;
+}
+
+#fb {
+	margin-top: -1px;
+}
+
+
+#credits{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+#credits a{
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+	font-family: "Raleway";
+	font-family: 10px;
+}
+
+#credits ul li{
+	float: left;
+	margin: 0px 5px;
+}
+
+#jouer{
+	width: 150px;
+	position: absolute;
+	top: 45%;
+	left: 70%;
+}
+
+
+/*Fenetres popups*/
+
+.popups{
+	width: 100%;
+	height: 100vh;
+}
+
+.relative{
+	position: relative;
+	width: 300px;
+	/*padding: 15% auto 0 auto;*/
+	display: block;
+}
+
+.pannel{
+	width: 300px;
+	position: relative;
+}
+
+.clear{
+	clear: both;
+}
+.content-popup{
+	width: 300px;
+    height: 330px;
+    background-image: url('../images/Illustrations/niveautermine_menu.png');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+}
+.stars{
+    width: 170px;
+    height: 60px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 65px;
+    margin-left: 65px;
+}
+
+.stars.stars1{
+	background-image: url('../images/Illustrations/stars1.png');
+}
+.stars.stars2{
+	background-image: url('../images/Illustrations/stars2.png');
+}
+.stars.stars3{
+	background-image: url('../images/Illustrations/stars3.png');
+}
+
+.level-score{
+	font-family: "CarterOne";
+    text-shadow: 1px 1px #3a230a, -1px -0px #3a230a;
+    -webkit-text-stroke: 1px #3a230a;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.level-score div{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.level-score div span{
+	width: 50%;
+	display: inline-block
+}
+.level-score div span.title{
+	text-align: right;
+}
+.level-score div span.values{
+	width: 25%;
+	text-align: right;
+}
+.sharefb{
+	width: 200px;
+	margin: 20px 0px;
+}
+.btns-score-nav a{
+	margin-right: 20px
+}
+.btns-score-nav a:last-child{
+	margin-right: 0px
+}
+.btns-score-nav a img{
+	width: 40px;
+}
+.absolute{
+	position: absolute;
+	top: 0;
+}
+
+/*Connexion*/
+
+.btninsc{
+	width: 82%;
+	margin: 8px 0 0 25px;
+	height: 30px;
+	border: none;
+	border: 2px solid #d8ab76;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {color: #d9d9d9;font-family: "CarterOne";font-size: 12px;}
+:-moz-placeholder {color: #d9d9d9;font-family: "CarterOne";}
+::-moz-placeholder {color: #d9d9d9;font-family: "CarterOne";}
+:-ms-input-placeholder {color: #d9d9d9;font-family: "CarterOne";}
+
+.absolute input[type="text"]:first-child{
+	margin-top: 100px;
+}
+
+.co_fb{
+	width: 82%;
+	margin-left: 23px;
+	margin-top: 10px;
+}
+
+.co_bts{
+	width: 40%;
+	margin-left: 2%;
+	float: left;
+	margin-top: 30px;
+}
+
+.co_bts_one{
+	margin-left: 23px;
+}
+
+/*Inscription*/
+
+.inscription input[type="text"]{
+	width: 95% !important;
+}
+
+.insc_btn{
+	width: 50%;
+	margin: 10px 32%;
+	display: block;
+}
+
+/*alerte*/
+
+.alerte{
+	margin-top: 18% !important;
+}
+
+.alerte p,
+.niveaux p,
+.niveauxtermine p{
+	font-family: "CarterOne";
+    text-shadow: 1px 1px #3a230a, -1px -0px #3a230a;
+    -webkit-text-stroke: 1px #3a230a;
+    color: #fff;
+    font-size: 28px;
+    margin: 30px 45px;
+    width: 100%;
+}
+
+
+.badges{
+	width: 30%;
+	margin-left: 100px;
+	display: block;
+	margin-top: -65px;
+}
+
+.alerte #sharefb,
+.niveauxtermine #sharefb{
+	width: 80%;
+	margin: 20px 30px;
+}
+
+#badgesgo{
+	width: 50px;
+	margin: 10px auto 0 auto;
+	display: block;
+}
+
+/*Game Over - Pause*/
+
+.gameoverbtns{
+	width: 50px;
+}
+
+.gameover{
+	margin-top: 20% !important;
+}
+
+.gameover li,
+.niveauxtermine li{
+	float: left;
+	margin: 0 10px;
+}
+
+.gameover ul{
+	margin: 55px 0 0 45px;
+}
+
+/*Niveaux*/
+
+.niveaux p{
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+#niveauxgo{
+	width: 50px;
+	margin: -5px auto 0 auto;
+	display: block;
+}
+
+.starscount{
+	width: 60%;
+	margin: 50px 60px 0px 60px;
+}
+
+.curve{
+	font-size: 24px !important;
+	margin: 8px 0 0 100px !important;
+}
+
+/*Niveaux terminé*/
+
+.starscount_termine{
+	width: 50%;
+	margin: 75px 60px 10px 70px;
+}
+
+.niveauxtermine p{
+	font-size: 20px;
+	margin: 10px -5px !important;
+	text-align: center;
+}
+
+.niveauxtermine ul{
+	margin: -5px 0 0 45px;
+}
+
+/*classements*/
+
+.classements{
+	/*margin-top: -8% !important;*/
+}
+
+.menu_classement{
+	width: 60%;
+	margin: 10px 0 25px 80px;
+}
+
+.namepanel{
+	width: 90%;
+	margin-left: 20px;
+	position: relative;
+}
+
+.class_relative{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+	padding-top: 80px;
+}
+
+.classements .pannel{
+	width: 400px !important;
+}
+
+.numbers{
+	width: 40px;
+	position: absolute;
+	left: 35px;
+	margin-top: 5px;
+}
+
+.numbers_class{
+	font-family: "CarterOne";
+    text-shadow: 1px 1px #3a230a, -1px -0px #3a230a;
+    -webkit-text-stroke: 1px #3a230a;
+    color: #fff;
+    font-size: 17px;
+    z-index: 2;
+    width: 40px;
+    position: absolute;
+    left: 35px;
+    top: 3px;
+    margin-top: 12px;
+    display: inline;
+    text-align: center;
+}
+
+.scorename, .scorepts{
+	font-family: "CarterOne";
+    text-shadow: 1px 1px #3a230a, -1px -0px #3a230a;
+    -webkit-text-stroke: 1px #3a230a;
+    color: #fff;
+    font-size: 23px;
+    width: 100%;
+    display: inline;
+}
+
+.scorename{
+    margin: 12px 0 0 -290px !important;
+    position: absolute;
+    width: 174px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.scorepts{
+	position: absolute;
+    right: 40px;
+    top: 12px;
+    text-align: right;
+}
+
+#nav{
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+}
+
+#nav li{
+	margin: 20px 10px;
+	float: left;
+}
+
+#nav li a img{
+	width: 40px;
+	display: block;
+}
+
+/*Trophee liste*/
+
+.absliste{
+	top: 170px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.badgesliste{
+	overflow-y: scroll;
+	height: 400px;
+}
+
+.badgesliste img{
+	width: 350px;
+	margin: 10px 0 10px 20px;
+}
+
+.panel_trophee{
+	width: 390px;
+	position: relative;
+}
+
+.panel_alerte{
+	width: 300px;
+	position: relative;
+}
+
+.co,
+.coinscription{
+	margin: 50px auto 0 auto;
+}
+
+.btninsctwo{
+	width: 95% !important;
+}
+
+.noscroll{
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.panelavatar{
+	width: 200px;
+	margin: 10px 20px;
+	position: absolute;
+}
+
+#joueur,
+#scorejoueur{
+	font-family: "CarterOne";
+    text-shadow: 1px 1px #3a230a, -1px -0px #3a230a;
+    -webkit-text-stroke: 1px #3a230a;
+    color: #fff;
+    font-size: 17px;
+    margin: 0 10px;
+}
+
+#joueur{
+    width: 110px;
+    position: fixed;
+    margin: 28px 0 0 80px;
+}
+
+#joueurdiv{
+    position: fixed;
+}
+
+#scorejoueur{
+	font-size: 13px !important;
+	/*display: block;*/
+	width: 110px;
+    position: fixed;
+    margin: 45px 0 0 80px;
+}
+
+#cross{
+	width: 16px;
+	position: fixed;
+	margin: 33px 0 0 196px;
+}
+
+#previousco{
+	width: 35px;
+	margin: 15px 0 0 30px;
+	position: absolute;
+}
+
+#closeone{
+	width: 35px;
+	position: absolute;
+	top: 100px;
+	left: 360px;
+}
+
+#closetwo{
+	width: 35px;
+	position: absolute;
+	top: 100px;
+	left: 360px;
+}
+
+#closethree{
+	width: 35px;
+	position: absolute;
+	top: 320px;
+	left: 140px;
+}
+
+.abslistetwo{
+	top: 170px;
+	height: 400px;
+}
+
+.scrollclass{
+	height: 330px;
+	overflow: hidden;
+
+}
+
+.scrollclassliste{
+	overflow-y: scroll;
+	height: 350px;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+}
+
+.scrollclassliste div{
+	position: relative;
+}
+
+.skins{
+	padding-top: 6%;
+}
+
+.booster{
+	height: 600px;
+	position: absolute;
+	top: 0;
+}
+
+.alerte{
+	height: 300px;
+	position: absolute;
+	top: -150px;
+}
+
+#boostbtn{
+	width: 35px;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+
+#levelsnav img{
+	width: 300px;
+	float: left;
+	margin: 0 20px;
+}
+
+.levelsnav{
+	width: 1020px;
+	margin: auto;
+	padding: 14%;
+}
+
+
+
+
+
+
+
+/* Unity */
+
+div.content {
+	margin: auto;
+	width: 960px;
+}
+div.broken,
+div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 193px;
+}
+div.broken a,
+div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+}
+div.broken img,
+div.missing img {
+	border-width: 0px;
+}
+div.broken {
+	display: none;
+}
+div#unityPlayer {
+	cursor: default;
+	height: 600px;
+	width: 960px;
+}

@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Carter+One);
+@import url(https://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+
+body { width: 100%;}
+
+
+/*home*/
+
+#home {
+    background-image: url(../images/fond.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 14%;
+    height: 533px;
+    /*background-image: ;*/
+}
+
+
+h1 {
+    text-align: center;
+
+}
+
+#logo{
+    width: 800px;
+    margin-top: -90px;
+}
+
+#home ul {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#home ul li{
+    display: inline;
+}
+
+.reseaux{
+    width: 50px;
+    margin: 0 10px;
+}
+
+#play {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/*Reglement*/
+
+#reglement {
+    background-color: #fff ;
+    padding-top: 3%;
+    height: 530px;
+    /*background-image: ;*/
+}
+
+#center {
+    width: 1000px;
+    height: 450px;
+    background-image: url("image/fond.png");
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.regles p {
+    width: 180px;
+    margin-top: 10%;
+    font-size: 18px;
+    font-family: 'Averia Sans Libre', cursive;
+    line-height: 1.2;
+}
+
+.regles ul {
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 6%;
+}
+
+
+
+
+/*Nouveauté*/
+
+#contenunew {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#nouveaute {
+    background-color: #f4e1a7 ;
+    height: 360px;
+    padding-top: 50px;
+    overflow: hidden;
+    /*background-image: ;*/
+}
+
+
+#nouveaute p {
+    width: 150px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Averia Sans Libre', cursive;
+    line-height: 1.2;
+}
+
+#nouveaute ul {
+    display: inline-block;
+    margin-left : 140px;
+}
+
+#imagenew {
+    float: left;
+}
+
+#textenew  {
+    float: left;
+}
+
+#textenew  p {
+    width: 250px;
+    font-size: 18px;
+    font-family: 'Averia Sans Libre', cursive;
+    line-height: 1.2;
+}
+
+#textenew h2 {
+    font-size: 42px;
+    font-family: 'Carter One', cursive;
+    margin-top: 60px;
+}
+
+/*Recommandation*/
+
+#recommandation {
+    background-color: white ;
+    padding-top: 3%;
+    width: 100%;
+}
+
+.com1 {
+    margin-left: 15%;
+}
+
+.com2 {
+    float: right;
+    margin-right: 15%;
+}
+
+.com3 {
+    margin-left: 15%;
+}
+
+/*Partenaire*/
+
+#partenaire {
+    background-color: black ;
+    padding-top: 5%;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    /*background-image: ;*/
+}
+
+#partenaire ul li {
+    display: inline;
+    margin: 0 50px;
+
+}
+
+/*images*/
+#images {
+    width: 100% ;
+}
+
+.imgwidth{
+    width: 50%;
+    float: left;
+}

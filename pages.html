@@ -1,0 +1,66 @@
+<?php
+session_start();
+require_once 'include/db.php';
+?>
+  <script   src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+
+  </script>
+
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head>
+	<title>Lost Adventure</title> 
+	<meta name="author" content="Véronique Choquet" /> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta content="http://canonical-url-com-de-votre-article" property="og:url">
+		<meta content="http://url-absolue-de-votre-image" property="og:image"> <!-- image en 200x200px -->
+		<meta content="Titre de l'article" property="og:title">
+<meta content="Description de l'article" property="og:description">
+<meta content="Description de l'article" property="og:description">
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+</head>
+<body class="noscroll">
+<!-- 	<div id="loader_title">
+		<h1><img id="loader" src="images/logo.png"></h1>
+	</div> -->
+	<div id="body">
+		<div id="nav">
+			<ul>
+				<li><a id="classementbtn" href=""><img src="images/Illustrations/classement.png"></a></li>
+				<li><a id="tropheebtn" href=""><img src="images/Illustrations/trophee.png"></a></li>
+				<li><a href=""><img src="images/Illustrations/gameplay.png"></a></li>
+				<li><a id="basket" href=""><img src="images/Illustrations/basket.png"></a></li>
+				<li><a href=""><img src="images/Illustrations/settings.png"></a></li>
+			</ul>
+		</div>
+		<div id="credits">
+			<ul>
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/LostAdventureJeu/?fref=ts" target="_blank"><img id="fb" src="images/fb.png"></a></a></li>
+
+				<li><a href="http://twitter.com/share" class="twitter-share-button">Tweet</a></li>
+			</ul>
+		</div>
+		<div id="joueurdiv">
+			<img class="panelavatar" src="images/Illustrations/panelavatar.png">
+			<p id="joueur">Joueur</p>
+			<p><span id="scorejoueur">2345 pts</span></p>
+			<a href="unset.php"><img id="cross" src="images/Illustrations/cross.png"></a>
+		</div>
+
+		<div class="popups alerte">
+			<div class="relative class_relative relative_trophee">
+				<img class="pannel panel_alerte" src="images/Illustrations/badgegagne.png">
+				</div>
+			</div>
+		</div>
+
+		
+
+	</div>
+
+	
+</body>
+</html>
